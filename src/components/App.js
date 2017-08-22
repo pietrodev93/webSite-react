@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Button, Row, Col } from "react-materialize";
-import ReactTooltip from 'react-tooltip';
-
-
+import ReactTooltip from "react-tooltip";
 
 class About extends Component {
   render() {
@@ -203,20 +201,25 @@ class Footer extends React.Component {
               <a
                 target="_blank"
                 data-tip="My Personal Profile"
-                href="https://www.facebook.com/pietro.giordano93"
+                href="https://twitter.com/Pietro_Giordano"
               >
-                <span className="ti-facebook" style={socialStyle} />
+                <span className="ti-twitter" style={socialStyle} />
               </a>
             </Col>
-            <Col s={3} style={{ position: "relative", top: 15 }}>
-              <a
-                target="_blank"
-                href="https://www.instagram.com/pietruzz/"
-              >
+            <Col
+              data-tip="All my passions"
+              s={3}
+              style={{ position: "relative", top: 15 }}
+            >
+              <a target="_blank" href="https://www.instagram.com/pietruzz/">
                 <span className="ti-instagram" style={socialStyle} />
               </a>
             </Col>
-            <Col s={3} style={{ position: "relative", top: 15 }}>
+            <Col
+              data-tip="My Business Profile"
+              s={3}
+              style={{ position: "relative", top: 15 }}
+            >
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/giordanopietro/"
@@ -225,11 +228,12 @@ class Footer extends React.Component {
               </a>
             </Col>
 
-            <Col data-tip="hello world" s={3} style={{ position: "relative", top: 15 }}>
-              <a
-                target="_blank"
-                href="https://github.com/pietrodev93"
-              >
+            <Col
+              data-tip="All my projects"
+              s={3}
+              style={{ position: "relative", top: 15 }}
+            >
+              <a target="_blank" href="https://github.com/pietrodev93">
                 <span className="ti-github" style={socialStyle} />
               </a>
             </Col>

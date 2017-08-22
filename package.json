@@ -6,7 +6,8 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.11",
-    "react-materialize": ">=0.14.0"
+    "react-materialize": ">=0.14.0",
+    "react-tooltip"
   },
   "scripts": {
     "start": "react-scripts start",

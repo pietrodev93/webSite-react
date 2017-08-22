@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Button, Row, Col } from "react-materialize";
-import ReactTooltip from "react-tooltip";
+
 
 class About extends Component {
   render() {
@@ -209,7 +209,6 @@ class Footer extends React.Component {
             <Col s={3} style={{ position: "relative", top: 15 }}>
               <a
                 target="_blank"
-                data-tip="My life and my passions"
                 href="https://www.instagram.com/pietruzz/"
               >
                 <span className="ti-instagram" style={socialStyle} />
@@ -218,7 +217,6 @@ class Footer extends React.Component {
             <Col s={3} style={{ position: "relative", top: 15 }}>
               <a
                 target="_blank"
-                data-tip="My Business Profile"
                 href="https://www.linkedin.com/in/giordanopietro/"
               >
                 <span className="ti-linkedin" style={socialStyle} />
@@ -227,14 +225,12 @@ class Footer extends React.Component {
             <Col s={3} style={{ position: "relative", top: 15 }}>
               <a
                 target="_blank"
-                data-tip="All my projects"
                 href="https://github.com/pietrodev93"
               >
                 <span className="ti-github" style={socialStyle} />
               </a>
             </Col>
           </Row>
-          <ReactTooltip />
         </div>
       </footer>
     );

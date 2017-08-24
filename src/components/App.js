@@ -29,7 +29,7 @@ class About extends Component {
       <section className="about" style={aboutStyle}>
         <div className="container">
           <Row>
-            <Col s={4} className="center">
+            <Col l={4} s={12} className="center">
               <img
                 src={
                   "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/18882039_10211448976053068_31206457138529450_n.jpg?oh=db1c68dd6df91ea23cf44311ed60937c&oe=5A1E65C7"
@@ -37,8 +37,8 @@ class About extends Component {
                 style={imgStyle}
               />
             </Col>
-            <Col s={8} className="AboutBlock">
-              <div className="title" style={{ marginBottom: 20 }}>
+            <Col l={8} s={12} className="AboutBlock">
+              <div className="title" style={{ marginBottom: 20, marginTop: 20 }}>
                 <h2 style={abTitleSt}>
                   <span
                     style={{
@@ -53,7 +53,7 @@ class About extends Component {
               </div>
               <div className="contactBlock">
                 <Row>
-                  <Col s={4}>
+                  <Col l={4} s={12}>
                     <div style={{ marginTop: 50 }}>
                       <div
                         className="contact-icon"
@@ -70,7 +70,7 @@ class About extends Component {
                       </div>
                     </div>
                   </Col>
-                  <Col s={4}>
+                  <Col l={4} s={12}>
                     <div style={{ marginTop: 50 }}>
                       <div
                         className="contact-icon"
@@ -84,7 +84,7 @@ class About extends Component {
                       </div>
                     </div>
                   </Col>
-                  <Col s={4}>
+                  <Col l={4} s={12}>
                     <div style={{ marginTop: 50 }}>
                       <div
                         className="contact-icon"
@@ -103,7 +103,7 @@ class About extends Component {
                   </Col>
                 </Row>
                 <Row>
-                  <Col s={4}>
+                  <Col l={4} s={12}>
                     <div style={{ marginTop: 50 }}>
                       <div
                         className="contact-icon"
@@ -120,7 +120,7 @@ class About extends Component {
                       </div>
                     </div>
                   </Col>
-                  <Col s={4}>
+                  <Col l={4} s={12}>
                     <div style={{ marginTop: 50 }}>
                       <div
                         className="contact-icon"
@@ -137,7 +137,7 @@ class About extends Component {
                       </div>
                     </div>
                   </Col>
-                  <Col s={4}>
+                  <Col l={4} s={12}>
                     <div style={{ marginTop: 50 }}>
                       <div
                         className="contact-icon"
@@ -156,7 +156,7 @@ class About extends Component {
                   </Col>
                 </Row>
                 <Row>
-                  <Col s={12} l={12}>
+                  <Col s={11} l={12}>
                     <p>
                       Hello, my name is <b>Pietro Giordano</b>. I've been a
                       Front-End and Wordpress Developer for <b>4 years</b>. As I
@@ -181,7 +181,6 @@ class Footer extends React.Component {
     const footerStyle = {
       position: "absolute",
       right: 0,
-      bottom: 0,
       left: 0,
       padding: "1rem",
       background: "rgb(7, 203, 121)",

@@ -32,7 +32,7 @@ class About extends Component {
             <Col l={4} s={12} className="center">
               <img
                 src={
-                  "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/18882039_10211448976053068_31206457138529450_n.jpg?oh=db1c68dd6df91ea23cf44311ed60937c&oe=5A1E65C7"
+                  "http://www.startaward.it/wp-content/uploads/2016/01/pietro.jpg"
                 }
                 style={imgStyle}
               />

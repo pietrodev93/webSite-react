@@ -181,6 +181,7 @@ class Footer extends React.Component {
     const footerStyle = {
       position: "absolute",
       right: 0,
+      bottom: 0,
       left: 0,
       padding: "1rem",
       background: "rgb(7, 203, 121)",

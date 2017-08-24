@@ -179,7 +179,7 @@ class About extends Component {
 class Footer extends React.Component {
   render() {
     const footerStyle = {
-      position: "absolute",
+      position: "fixed",
       right: 0,
       bottom: 0,
       left: 0,
